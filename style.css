@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #edede9;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: x-large;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 50%;
+  width: calc(960px * 0.49);
+  height: calc(1260px * 0.46);
+  border: 4px solid #a3b18a;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
