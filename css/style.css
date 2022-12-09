@@ -1,6 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f1f2ee;
+  margin: 0;
 }
 
 a {
@@ -40,8 +45,8 @@ nav ul {
 }
 
 .home__card img {
-  width: 90%;
-  height: 90%;
+  width: 75%;
+  height: 75%;
   margin: auto;
   display: block;
   border-radius: 10%;
@@ -76,4 +81,40 @@ nav ul {
 
 .home__text__links a:hover {
   color: gray;
+}
+
+.skills {
+  margin: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #393d3f;
+}
+
+.skills__carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__carousel__card {
+  margin: 0px 10px 30px 10px;
+}
+
+.skills__carousel__card h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-top: 0px;
+  color: #393d3f;
+}
+
+.skills__carousel__card img {
+  width: 200px;
+  height: 200px;
 }
