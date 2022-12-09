@@ -63,6 +63,8 @@ nav ul {
 .home__text__welcome {
   text-align: center;
   font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 100px;
 }
 
 .home__text__other {
@@ -94,16 +96,31 @@ nav ul {
   font-size: 40px;
   text-transform: uppercase;
   color: #393d3f;
+  margin: 10px 0 10px 0;
+}
+
+.skills__section {
+  display: flex;
+  justify-content: center;
 }
 
 .skills__carousel {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 
+.skills__section__title {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #393d3f;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .skills__carousel__card {
-  margin: 0px 10px 30px 10px;
+  margin: 0px 30px 0px 30px;
 }
 
 .skills__carousel__card h3 {
@@ -112,6 +129,7 @@ nav ul {
   font-size: 22px;
   margin-top: 0px;
   color: #393d3f;
+  /* display: none; */
 }
 
 .skills__carousel__card img {
